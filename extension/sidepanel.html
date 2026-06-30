@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AegisLens</title>
+  <link rel="stylesheet" href="sidepanel.css">
+</head>
+<body>
+  <header>
+    <h1>AegisLens</h1>
+    <p class="subtitle">IOC analysis results</p>
+  </header>
+
+  <section id="status" class="status loading">Waiting for analysis…</section>
+
+  <section id="selection" class="selection hidden">
+    <h2>Selected text</h2>
+    <pre id="selected-text"></pre>
+  </section>
+
+  <section id="results" class="results hidden">
+    <h2>Indicators</h2>
+    <div id="ioc-list"></div>
+  </section>
+
+  <script src="sidepanel.js"></script>
+</body>
+</html>

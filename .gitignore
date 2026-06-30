@@ -1,0 +1,6 @@
+.env
+__pycache__/
+*.pyc
+backend/investigations.db
+.DS_Store
+node_modules/
